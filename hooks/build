@@ -5,5 +5,4 @@ VERSION=1.10.9
 docker build \
     -t jakerbeck/docker-airflow:${VERSION} \
     --build-arg VERSION="${VERSION}" \
-    --build-arg PYTHON_DEPS="airflow-exporter" \
     .
