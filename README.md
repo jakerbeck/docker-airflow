@@ -14,7 +14,7 @@ Intended for use with:
 https://github.com/helm/charts/tree/master/stable/airflow
 
 ## Why
-Run https://github.com/helm/charts/tree/master/stable/airflow with the exporter built in.
+To run https://github.com/helm/charts/tree/master/stable/airflow with the exporter built into the image.
 
 
 ## New Builds
