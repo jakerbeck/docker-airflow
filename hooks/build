@@ -1,9 +1,9 @@
 #!/bin/bash
 
 docker build \
-    -t jakerbeck/docker-airflow:${VERSION} \
+    -t jakerbeck/pukel-docker-airflow-with-epoch8-exporter:${VERSION} \
     --build-arg VERSION="${VERSION}" \
     .
 
-docker push jakerbeck/docker-airflow:${VERSION}
-docker push jakerbeck/docker-airflow:latest
+docker push jakerbeck/pukel-docker-airflow-with-epoch8-exporter:${VERSION}
+docker push jakerbeck/pukel-docker-airflow-with-epoch8-exporter:latest
