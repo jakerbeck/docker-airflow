@@ -1,12 +1,10 @@
 #!/bin/bash
 
-VERSION=1.10.9
+VERSION="latest"
 
 docker build \
     -t jakerbeck/pukel-docker-airflow-with-epoch8-exporter:${VERSION} \
-    -t jakerbeck/pukel-docker-airflow-with-epoch8-exporter:latest \
     --build-arg VERSION="${VERSION}" \
     .
 
 docker push jakerbeck/pukel-docker-airflow-with-epoch8-exporter:${VERSION}
-docker push jakerbeck/pukel-docker-airflow-with-epoch8-exporter:latest
