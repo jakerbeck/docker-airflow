@@ -6,3 +6,4 @@ docker build \
     .
 
 docker push jakerbeck/docker-airflow:${VERSION}
+docker push jakerbeck/docker-airflow:latest
