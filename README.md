@@ -1,21 +1,14 @@
 # pukel-docker-airflow-with-epoch8-exporter
-https://github.com/jakerbeck/docker-airflow
+Project: https://github.com/jakerbeck/docker-airflow
 
-Base Image:
+Base Image: https://github.com/puckel/docker-airflow
 
-https://github.com/puckel/docker-airflow
+Prometheus Exporter: https://github.com/epoch8/airflow-exporter
 
-Prometheus Exporter:
-
-https://github.com/epoch8/airflow-exporter
-
-Intended for use with:
-
-https://github.com/helm/charts/tree/master/stable/airflow
+Intended for use with: https://github.com/helm/charts/tree/master/stable/airflow
 
 ## Why
 To run https://github.com/helm/charts/tree/master/stable/airflow with the exporter built into the image.
-
 
 ## New Builds
 Modify the `VERSION` environment variable in the Dockerhub repository to match the tag from https://hub.docker.com/r/puckel/docker-airflow/tags and trigger a new build.
