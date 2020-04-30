@@ -1,7 +1,6 @@
 # docker-airflow
 https://github.com/jakerbeck/docker-airflow
 
-## Information
 Base Image:
 
 https://github.com/puckel/docker-airflow
@@ -13,6 +12,9 @@ https://github.com/epoch8/airflow-exporter
 Intended for use with:
 
 https://github.com/helm/charts/tree/master/stable/airflow
+
+## Why
+Run https://github.com/helm/charts/tree/master/stable/airflow with the exporter built in.
 
 
 ## New Builds
