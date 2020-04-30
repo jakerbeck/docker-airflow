@@ -1,7 +1,5 @@
 #!/bin/bash
 
-VERSION=1.10.9
-
 docker build \
     -t jakerbeck/docker-airflow:${VERSION} \
     --build-arg VERSION="${VERSION}" \
