@@ -4,3 +4,5 @@ docker build \
     -t jakerbeck/docker-airflow:${VERSION} \
     --build-arg VERSION="${VERSION}" \
     .
+
+docker push jakerbeck/docker-airflow:${VERSION}
