@@ -10,6 +10,8 @@ Intended for use with: https://github.com/helm/charts/tree/master/stable/airflow
 ## Why
 To run https://github.com/helm/charts/tree/master/stable/airflow with the exporter built into the image.
 
+The image `jakerbeck/pukel-docker-airflow-with-epoch8-exporter` (I recommend using a tag at the end) should have metrics displayed at  `http://{{CONTAINER_IP}}:8080/admin/metrics/`
+
 ## Builds
 Create a pull request to modify `VERSION` in hooks/build which should match the tag from https://hub.docker.com/r/puckel/docker-airflow/tags.
 
