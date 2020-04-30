@@ -2,6 +2,7 @@
 
 docker build \
     -t jakerbeck/pukel-docker-airflow-with-epoch8-exporter:${VERSION} \
+    -t jakerbeck/pukel-docker-airflow-with-epoch8-exporter:latest \
     --build-arg VERSION="${VERSION}" \
     .
 
