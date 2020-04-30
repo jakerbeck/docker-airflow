@@ -1,0 +1,2 @@
+#!/bin/bash
+docker build -t jakerbeck/docker-airflow:1.10.9 --build-arg PYTHON_DEPS="airflow-exporter" https://github.com/puckel/docker-airflow.git#master
